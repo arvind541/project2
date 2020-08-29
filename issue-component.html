@@ -1,0 +1,54 @@
+<h1 class="top-header">
+
+</h1>
+<mat-drawer-container class="example-container" [hasBackdrop]="hasBackdrop.value">
+  <mat-drawer #drawer [mode]="mode.value">I'm a drawer</mat-drawer>
+  <mat-drawer-content>
+    <button  class="nav-btn" mat-raised-button (click)="drawer.toggle()">Dashboard
+    </button>
+    <br>
+    <br>
+      <button  class="nav-btn1" mat-raised-button (click)="drawer.toggle()">Issues</button>
+      <br>
+      <br>
+          <button  class="nav-btn2" mat-raised-button (click)="drawer.toggle()">Create</button>
+  </mat-drawer-content>
+</mat-drawer-container>
+<div class="title">
+  Issues
+</div>
+<h2 class="right-header">
+  <mat-card class="hp">To do</mat-card>
+   <mat-card class="rui">In Progress
+   </mat-card>
+    <mat-card class="ai">Done</mat-card>
+    <mat-card class="hp1">1.
+      <mat-card class="red">High Priority</mat-card>
+    </mat-card>
+    <mat-card class="hp2">2.
+      <mat-card class="red">High Priority</mat-card>
+    </mat-card>
+    <mat-card class="rui1">1
+      <mat-card class="yellow">In progress</mat-card>.</mat-card>
+    <mat-card class="rui2">2.
+      <mat-card class="yellow">In progress</mat-card>
+    </mat-card>
+    <mat-card class="rui3">3.
+      <mat-card class="yellow">In progress</mat-card>
+    </mat-card>
+    <mat-card class="ai1">1.
+      <mat-card class="green">Done</mat-card>
+    </mat-card>
+    <mat-card class="ai2">2.
+      <mat-card class="green">Done</mat-card>
+    </mat-card>
+    <mat-card class="ai3">3.
+      <mat-card class="green">Done</mat-card>
+    </mat-card>
+    
+</h2>
+
+
+<!-- Copyright 2020 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

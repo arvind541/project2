@@ -1,0 +1,38 @@
+<h1 class="top-header">
+
+</h1>
+<mat-drawer-container class="example-container" [hasBackdrop]="hasBackdrop.value">
+  <mat-drawer #drawer [mode]="mode.value">I'm a drawer</mat-drawer>
+  <mat-drawer-content>
+    <button  class="nav-btn" mat-raised-button (click)="drawer.toggle()">Dashboard
+    </button>
+    <br>
+    <br>
+      <button  class="nav-btn1" mat-raised-button (click)="drawer.toggle()">Issues</button>
+      <br>
+      <br>
+          <button  class="nav-btn2" mat-raised-button (click)="drawer.toggle()">Create</button>
+  </mat-drawer-content>
+</mat-drawer-container>
+<div class="title">
+  Dashboard 
+</div>
+<h2 class="right-header">
+  <mat-card class="hp">High Priority</mat-card>
+   <mat-card class="rui">Recently Updated Issues</mat-card>
+    <mat-card class="ai">All Issues</mat-card>
+    <mat-card class="hp1">1.</mat-card>
+    <mat-card class="hp2">2.</mat-card>
+    <mat-card class="rui1">1.</mat-card>
+    <mat-card class="rui2">2.</mat-card>
+    <mat-card class="rui3">3.</mat-card>
+    <mat-card class="ai1">1.</mat-card>
+    <mat-card class="ai2">2.</mat-card>
+    <mat-card class="ai3">3.</mat-card>
+    
+</h2>
+
+
+<!-- Copyright 2020 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

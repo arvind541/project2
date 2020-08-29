@@ -1,0 +1,202 @@
+.example-container {
+  float: left;
+  width: 200px;
+  height: 700px; /* only for demonstration, should be removed */
+  background-color:#1d3557;
+  border-radius: 10px;
+}
+
+.nav-btn{
+   border: none; /* Remove borders */
+  color: lightgrey; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; 
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color:#1d3557;
+  box-shadow: 0 5PX #e63946;
+  left: 8%;
+  top: 5%;
+
+}
+.nav-btn1{
+   border: none; /* Remove borders */
+  color: lightgrey; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; 
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color:#1d3557;
+  box-shadow: 0 5PX #e63946;
+  left: 8%;
+  top: 5%;
+}
+.nav-btn2{
+   border: none; /* Remove borders */
+  color: lightgrey; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; 
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color:#1d3557;
+  box-shadow: 0 5PX #e63946;
+  left: 8%;
+  top: 5%;
+
+}
+.top-header{
+  background-color: lightgrey;
+  width: 100%;
+  height:50px;
+  border-radius: 10px;
+}
+.right-header{
+  width: 900px;
+  height: 600px;
+  float: right;
+  background-color: lightgrey;
+}
+.title{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-right: 20px;
+}
+.hp{
+  width: 210px;
+  height: 18px;
+  top: 0.6%;
+  text-align: center;
+  font-weight: bold;
+    font-size:20px; 
+  left: 1%;
+}
+.rui{
+  width: 300px;
+  height: 18px;
+    text-align: center;
+  font-weight: bold;
+  font-size:20px; 
+  left: 29%;
+  top: -7.7%;
+}
+.ai{
+  width: 260px;
+  height: 18px;
+    text-align: center;
+  font-weight: bold;
+  font-size:20px; 
+  left: 67%;
+  top: -16%;
+}
+.hp1{
+  width: 210px;
+  height:200px;
+  top: -15%;
+  text-align: left;
+  font-weight: bold;
+    font-size:20px; 
+  left: 1%;
+}
+.hp2{
+  width: 210px;
+  height: 200px;
+  top: -14%;
+  text-align: left;
+  font-weight: bold;
+    font-size:20px; 
+  left: 1%;
+}
+
+.rui1{
+  width: 300px;
+  height: 100px;
+    text-align: left;
+  font-weight: bold;
+  font-size:20px; 
+  left: 29%;
+  bottom:92.3%;
+}
+.rui2{
+  width: 300px;
+  height: 100px;
+    text-align: left;
+  font-weight: bold;
+  font-size:20px; 
+  left: 29%;
+  bottom:91%;
+}
+.rui3{
+  width: 300px;
+  height: 100px;
+    text-align: left;
+  font-weight: bold;
+  font-size:20px; 
+  left: 29%;
+  bottom:90%;
+}
+.ai1{
+  width: 260px;
+  height: 140px;
+    text-align: left;
+  font-weight: bold;
+  font-size:20px; 
+  left: 67%;
+  bottom:158.4%
+}
+.ai2{
+
+  width: 260px;
+  height: 140px;
+    text-align: left;
+  font-weight: bold;
+  font-size:20px; 
+  left: 67%;
+  bottom:157.5%
+}
+.ai3{
+  width: 260px;
+  height: 140px;
+    text-align: left;
+  font-weight: bold;
+  font-size:20px; 
+  left: 67%;
+  bottom:156.7%
+}
+.red{
+  width: 50px;
+  height: 5px;
+  background-color: red;
+  font-size: 8px;
+  float: right;
+  bottom:-70%;
+   text-align: center;
+}
+.yellow{
+  width: 50px;
+  height: 5px;
+  background-color:yellow;
+  font-size: 8px;
+  float: right;
+  bottom:-70%;
+   text-align: center;
+}
+.green{
+  width: 50px;
+  height: 5px;
+  background-color:green;
+  font-size: 8px;
+  float: right;
+  bottom:-70%;
+  color: white;
+  text-align: center;
+}
